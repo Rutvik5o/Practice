@@ -1,0 +1,1 @@
+print('String manipulation Exercise \n String Concentenation is done with "+" sign \n e.g. print("hello" + "Jenny")\n New lines can be created wit a backslash and n')
