@@ -11,3 +11,5 @@ print(spiltMe)
 readMe2=open("examplewrite.txt",'r').readlines()
 
 print(readMe2)
+
+
