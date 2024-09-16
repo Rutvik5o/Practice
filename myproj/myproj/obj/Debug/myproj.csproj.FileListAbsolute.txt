@@ -1,0 +1,5 @@
+E:\University\Practice\ASP.NET\myproj\myproj\bin\Debug\myproj.dll
+E:\University\Practice\ASP.NET\myproj\myproj\bin\Debug\myproj.pdb
+E:\University\Practice\ASP.NET\myproj\myproj\obj\Debug\ResolveAssemblyReference.cache
+E:\University\Practice\ASP.NET\myproj\myproj\obj\Debug\myproj.dll
+E:\University\Practice\ASP.NET\myproj\myproj\obj\Debug\myproj.pdb
