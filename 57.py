@@ -1,4 +1,5 @@
-class Bank:
+class test:
+
 
     def __init__(self,name,balance):
 
@@ -7,17 +8,18 @@ class Bank:
         self.balance = balance
 
 
-    def display(self,deposite,withdrawl):
+    def display(self,withdraw,deposit):
 
         print("Name=>",self.name)
 
-        print("Deposit=>",deposite)
-
         print("Balance =>",self.balance)
 
-        print("Withdrawl=>",withdrawl)
+        print("withdraw=>",withdraw)
+
+        print("Deposit=>",deposit)
 
 
-Obj1= Bank("Hi",500)
+obj = test("abc",1000)
 
-Bank.display(Obj1,200,300)
+obj.display(100,200)
+

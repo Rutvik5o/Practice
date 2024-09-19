@@ -1,32 +1,27 @@
-'''
-(4) => Write a program to store data into instancdes using mutator method and to retrieve data from instances using accessor method.
-'''
+class fun:
 
-class student:
 
     def __init__(self):
 
-        self.name = "Xyz"
+        self.name = "abc"
 
 
     def getter(self):
 
         return self.name
 
-
     def setter(self):
 
-        self.name = "ABC"
+        self.name = "xyz"
 
 
-Obj = student();
+obj = fun()
+print(obj.getter())
 
-print("Before setter method=>",Obj.getter())
+obj.setter()
 
-Obj.setter();
+print(obj.getter())
 
-print("After setter method=>",Obj.getter())
 
-   
 
 

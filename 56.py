@@ -1,17 +1,22 @@
-class temp:
+class ct:
 
-    count = 0
-
+    counter = 0
+    
     def __init__(self):
-
-        temp.count += 1 
-
+        
+        ct.counter += 1
+        
+        
     @staticmethod
 
     def display():
 
-        print("Total Object Created=>",temp.count)
-    
-Obj = temp()
-Obj2=temp()
-Obj2.display()
+        print("Total Object Created=>",ct.counter)
+
+
+
+obj1 = ct()
+obj2 = ct()
+obj3 = ct()
+
+obj3.display()

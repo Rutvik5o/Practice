@@ -1,9 +1,9 @@
-list1= [33,52,66,21,2,332,1,[353,55,22,3,1,233,335,22]]
 
-sub_list = list1[7]
 
-data=sub_list[0]
+list1= [335,26,26,2,[63,732,33]]
 
-print(sub_list)
+x = list1[4]
 
-print(data)
+nested_list = list1[4][1]
+
+print(nested_list)

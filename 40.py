@@ -1,14 +1,18 @@
 user_dict = {}
 
-num = int(input("Enter how many entires you want->"))
+
+num = int(input("enter how many entires you want->"))
+
 
 for i in range(num):
 
-    key = input("Enter Key->")
+    key = input("Ente key->")
 
-    value = input("Enter value->")
+    value = input("Enter value ->")
 
     user_dict[key] = value
 
 
-print("Dictionary=>",user_dict)
+print(user_dict)
+
+    

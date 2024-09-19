@@ -1,6 +1,7 @@
 class student:
 
-    field = "IT"
+    dept = "IT"
+
 
     def __init__(self,r,n):
 
@@ -9,7 +10,9 @@ class student:
         self.name = n
 
 
+obj = student(1,"abc")
 
-Obj = student(10,"ABC")
+print(obj.roll)
+print(obj.name)
 
-print(student.field,Obj.roll,Obj.name,Obj.field)
+print(student.dept)

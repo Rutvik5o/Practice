@@ -1,26 +1,33 @@
-def m_f(fname,lname): #positinal arguments
+'''
+Write a program to demostrate the use of positional argument, keyword argument and default argument.
+'''
+
+def m_f(fname,lname): # positional argument
 
     print(fname,lname)
 
-
-m_f("one","two")
-
-#keyword arguments
+m_f("hellO","how are u")
 
 
-def m_f(one,two,three):
+def m_f(one,two,three): # Keyword argument
 
-    print("the highest is =>",three)
+    print("Three wala=>",three)
 
-m_f(three="high",two="low",one="medium")
+m_f(three="two",two="one",one="three")
 
 
-#default arguments
+def m_f(country="India"):#default argument
 
-def m_f(country="India"):
-
-    print("i am from "+country)
-
+    print("My country=>",country)
 
 m_f()
 m_f("Bharat")
+
+
+def m_f(*args): #variable length argument
+
+    print("third argument=>",args[3]) 
+
+m_f(1,2,3,4,5)
+
+

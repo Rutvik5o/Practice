@@ -1,19 +1,27 @@
+
+
 class student:
 
-    def __init__(self,name,age,no):
+    def __init__(self,name,number,age):
 
         self.name = name
 
-        self.age = age
+        self.number = number
 
-        self.no = no
+        self.age = age
 
 
     def display(self):
 
-        print(self.name,self.age,self.no)
+        print("Name->",self.name)
+
+        print("Number->",self.number)
+
+        print("Age->",self.age)
 
 
-s1=student("Hi",14,74)
 
-s1.display()
+
+obj= student("abc",4,21)
+
+obj.display()

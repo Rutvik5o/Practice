@@ -1,7 +1,3 @@
-'''
-(10)=> Write a program to access the base class contructor from
-by using super() method and also without using super() method.
-'''
 
 
 class parent:
@@ -9,18 +5,38 @@ class parent:
     def __init__(self):
 
         print("to program")
+        self.a=10
+
+
+    def display(self):
+
+        print("hello bro")
+
+    
 
 
 class child(parent):
 
+    a=50
+
     def __init__(self):
 
-        print("Welcome")
+        print("welcome")
 
         super().__init__()
 
+       
 
-Obj=child()
+    def display(self):
 
+        print("going to parent class")
 
+        super().display()
 
+        print(self.a)
+        
+
+    
+
+c=child()
+c.display()

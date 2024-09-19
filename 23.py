@@ -1,22 +1,19 @@
 from array import *
 
-a=array('f',[1,2,3,4,5,2]
-)
+a = array('f',[234,33,22,213])
 
-print(a)
+for x in range(0,len(a)):
 
-a.append(53)
-print(a)
+    print(a[x])
 
-a.insert(2,52)
+
+a.insert(2,132)
 print(a)
 
 a.pop(3)
 print(a)
 
-a.remove(2)
+a.remove(234)
 print(a)
 
-print(a.count(2))
-
-print(a.index(2))
+print(a.index(33))

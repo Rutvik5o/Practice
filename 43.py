@@ -1,10 +1,13 @@
-def func(d):
-
-    for key in d:
-
-        print("key", key, " value",d[key])
+#create a python function to accpect python function as a dictionary and display its elemnts.
 
 
-x={'a':'b','b':'d'}
+def func(dict1):
 
-func(x)
+    for x in dict1:
+
+        print("Key->",x)
+
+        print("Value->",dict1[x])
+
+
+func({1:'abc',2:'cac',3:'yyy'})

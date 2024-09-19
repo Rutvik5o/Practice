@@ -1,21 +1,19 @@
 def rename(duplicate):
 
-    final_list=[]
+    final_list = []
 
+    for x in duplicate:
 
-    for num in duplicate:
+        if x not in final_list:
 
-        if num not in final_list:
-
-            final_list.append(num)
-
+            final_list.append(x)
 
         else:
 
-            print(num," is a repeating number")
-
-        
-    return final_list
+            print("Number is repeating",x)
 
 
-print("Removing Duplicate Number=>",rename([53,52,66,26,3,3,62,11,21,11]))
+    print(final_list)
+
+
+rename([34,255,22,3,5,56,6,2,1,3,5,2,3,62])
